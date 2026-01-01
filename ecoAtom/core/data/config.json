@@ -1,0 +1,32 @@
+{
+  "simulation": {
+    "steps": 200,
+    "time_step": 0.1,
+    "event_interval_steps": 10,
+    "realtime_delay": 0.0
+  },
+  "centrifugal": {
+    "radius_m": 10.0,
+    "initial_rpm": 0.0,
+    "max_rpm": 20000.0,
+    "acceleration_rpm_per_s": 200.0,
+    "beam_mass_number": 56,
+    "instability_threshold_rpm": 15000.0
+  },
+  "vacuum": {
+    "initial_pressure_pa": 0.001,
+    "base_pressure_pa": 0.000000001,
+    "pump_speed": 0.5,
+    "outgassing_rate": 0.02
+  },
+  "beam": {
+    "element_atomic_number": 10
+  },
+  "output": {
+    "events_dir": "events"
+  },
+  "detector": {
+    "efficiency": 0.8,
+    "angular_resolution_deg": 5.0
+  }
+}
