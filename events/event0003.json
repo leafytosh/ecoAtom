@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-01-01T19:25:02Z",
+  "step": 30,
+  "time_delta": 0.1,
+  "beam_element": {
+    "atomic_number": 10,
+    "symbol": "Ne",
+    "name": "Neon",
+    "atomic_mass": 20.1797
+  },
+  "centrifugal_state": {
+    "rpm": 6000.0,
+    "angular_velocity": 628.3185307179587,
+    "tangential_velocity": 6283.185307179587,
+    "centrifugal_acceleration": 3947.8499999999995,
+    "unstable": false
+  },
+  "vacuum_state": {
+    "pressure_pa": 0.0007290000000000002
+  },
+  "fragments": [
+    {
+      "id": 0,
+      "energy_j": 5.221e-15,
+      "angle_deg": 5.1
+    },
+    {
+      "id": 1,
+      "energy_j": 3.112e-15,
+      "angle_deg": 88.4
+    },
+    {
+      "id": 2,
+      "energy_j": 2.009e-15,
+      "angle_deg": 199.2
+    },
+    {
+      "id": 3,
+      "energy_j": 1.554e-15,
+      "angle_deg": 270.0
+    },
+    {
+      "id": 4,
+      "energy_j": 0.998e-15,
+      "angle_deg": 333.7
+    }
+  ]
+}
