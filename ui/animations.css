@@ -1,0 +1,1 @@
+@keyframes beam-spin {  0% {    transform: rotate(0deg) translateY(-40px);  }  100% {    transform: rotate(360deg) translateY(-40px);  }}
